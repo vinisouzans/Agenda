@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+  
+    <link href='fullcalendar/packages/core/main.css' rel='stylesheet' />
+    <link href='fullcalendar/packages/daygrid/main.css' rel='stylesheet' />
+    
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Reservas de Quiosques</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-light bg-light navbar-logo">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Reserva de Quiosques Mônaco</span>
+      </div>
+    </nav>
+   
+  <div class="content">
+    <div id='calendar'></div>
+  </div>  
+ 
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Solicitar Reserva de Quiosque</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <span class="mensagem-modal"></span>         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" id="btn-solicitar-reservar-id">Solicitar Reserva</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src='fullcalendar/packages/core/main.js'></script>
+  <script src='fullcalendar/packages/interaction/main.js'></script>
+  <script src='fullcalendar/packages/daygrid/main.js'></script>
+  <script src='fullcalendar/packages/core/pt-br.js'></script>
+
+  <script src="js/main.js"></script>
+  </body>
+</html>
